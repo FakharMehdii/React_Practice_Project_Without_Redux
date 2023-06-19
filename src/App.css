@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -15,7 +20,7 @@
 
 .area {
   background-color: white;
-  width: 53%;
+  width: 50.8%;
   align-items: center;
   text-align: center;
   padding-bottom: 20px;
@@ -69,7 +74,8 @@
 
 #edit , #del{
   
-  font-size: 15px;
+  font-size: 12px;
+  padding: 0px 12px;
 }
 
 
