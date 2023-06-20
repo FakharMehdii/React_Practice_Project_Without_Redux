@@ -1,6 +1,4 @@
 
-
-
 export function InputField ({inputValue, handleChange, handleKeyPress})
 {
   return(
