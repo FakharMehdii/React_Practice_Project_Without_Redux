@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -15,12 +19,12 @@
 
 .area {
   background-color: white;
-  width: 53%;
+  width: 50.8%;
   align-items: center;
   text-align: center;
   padding-bottom: 20px;
-
 }
+
 .App {
   background-color: #3389ae;
   min-height: 100vh;
@@ -37,9 +41,7 @@
   font: 40px ;
   font-family: 'Times New Roman', Times, serif;
   margin: 41.8px 0px 34;
-  text-align: center;
-
-  
+  text-align: center;  
 }
 
 .App-link {
@@ -69,14 +71,15 @@
 
 #edit , #del{
   
-  font-size: 15px;
+  font-size: 12px;
+  padding: 0px 12px;
 }
-
 
 .fa-solid  {
   size: 500px;
   
 }
+
 .desc {
 
   margin-left: 0px;
@@ -87,7 +90,7 @@
   display: inline;
 }
 
-.bar {
+.todoTask {
 
   padding: 16px 16px 16px 16px;
   color: black;
@@ -95,7 +98,4 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid black;
-
-
-
 }
